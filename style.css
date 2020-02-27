@@ -1,5 +1,54 @@
+.gameboard {
+  margin: auto;
+}
+
 .grid {
   display: grid;
+  grid-gap: 1px;
+  border: solid 3px #dddddd;
   grid-template-columns: 1fr 1fr 1fr;
+  background-color: #dddddd;
   font-size: 30px;
+  width: 338px;
+}
+
+#box {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form input[type=submit] {
+  /*color: blue;*/
+}
+
+.form input[type=text] {
+  color: #505050;
+  height: 30px;
+  font-size: 20px;
+}
+
+#playerForm {
+  display: flex;
+  align-items: center;
+}
+
+.players {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin: 34px;
+}
+
+.player-name {
+  margin: 0px 20px;
 }
